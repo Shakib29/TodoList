@@ -11,7 +11,7 @@ export function Todofilters({onFilter}) {
     completed: COMPLETED_FILTERS[completed].value,
     priority: PRIORITY_FILTERS[priority].value,
 
-   };
+   };  https://github.com/Shakib29/TodoList
    onFilter(filters)
   },[completed,priority])
   return (
